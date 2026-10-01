@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "nuevo-issue-lifecycle",
+  "version": "1.1.0",
+  "description": "A teaching bundle for tracked changes: an issue-lifecycle skill, start-tracked-change command, preview-first triage agent, and bounded commit-message hook. Repository-wide instructions are installed separately.",
+  "author": {
+    "name": "Nuevo Foundation",
+    "url": "https://github.com/NuevoFoundation"
+  },
+  "homepage": "https://github.com/NuevoFoundation/copilot-cli-skills-sandbox-starter",
+  "license": "MIT",
+  "keywords": ["github", "issues", "workflow", "copilot-cli", "nuevo-foundation"]
+}

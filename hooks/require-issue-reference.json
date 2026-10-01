@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      {
+        "type": "command",
+        "matcher": "bash|powershell|shell",
+        "bash": "node .github/hooks/require-issue-reference.js",
+        "powershell": "node .github\\hooks\\require-issue-reference.js",
+        "timeoutSec": 15
+      }
+    ]
+  }
+}
